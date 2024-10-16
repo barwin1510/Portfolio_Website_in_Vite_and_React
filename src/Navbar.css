@@ -1,0 +1,89 @@
+.lnav{
+    color: rgb(0, 187, 211);;
+    margin-left:3%;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.rnav{
+    display:flex;
+    column-gap: 60px;
+    align-items: end;
+    margin-right:3%;
+}
+
+.nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.navsub1,.navsub2,.navsub3,.navsub4,.navsub5{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nsr1:hover,.nsr2:hover,.nsr3:hover,.nsr4:hover,.nsr5:hover{
+    text-decoration: none;
+    color: rgb(0, 187, 211);
+}
+
+.lnsr1:hover,.lnsr2:hover,.lnsr3:hover,.lnsr4:hover,.lnsr5:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.menuP{
+    display:none;
+}
+
+.sidenav{
+    position:fixed;
+    height:100%;
+    width:50%;
+    background-color: rgb(0, 187, 211);
+    top:0%;
+    left:-50%;
+    transition: 1s;    
+}
+
+.navside{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.navside1,.navside2,.navside3,.navside4,.navside5{
+    display: inline-block;
+    cursor:pointer;
+    margin-bottom: 50px;
+}
+
+.navside1:hover,.navside2:hover,.navside3:hover,.navside4:hover,.navside5:hover{
+    color:white;
+}
+
+.cancelIcon{
+    width:17px;
+    cursor:pointer;
+}
+
+.cancelP{
+    display:flex;
+    justify-content: end;
+    margin-right: 18px;
+    margin-top: 18px;
+}
+
+@media screen and (max-width:800px){
+    .rnav{
+        display: none;
+    }
+    .menuIcon{
+        width:17px;
+        cursor:pointer;
+    }
+    .menuP{
+        display:block;
+        margin-right:1%;
+    }
+}

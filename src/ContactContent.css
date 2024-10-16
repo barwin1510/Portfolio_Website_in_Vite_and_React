@@ -1,0 +1,46 @@
+
+.contact{
+    margin-top: 50px;
+    color: rgb(0, 187, 211);
+    margin-left:15%;
+}
+
+.contact1,.contact2,.contact3,.contact4{
+    display: inline-flex;
+    align-items: center;  
+    margin-top: 40px;
+}
+
+.contacts{
+    margin-left:35%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+@media screen and (max-width:530px){
+
+    .contact{
+        margin-left:10%;
+    }
+
+    .contacts{
+        margin-left:20%;
+    }
+}
+
+@media screen and (max-width:360px){
+
+    .contact{
+        margin-left:5%;
+    }
+
+    .contacts{
+        margin-left:13%;
+    }
+}

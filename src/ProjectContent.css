@@ -1,0 +1,53 @@
+.project{
+    margin-top: 50px;
+    margin-left:5%;
+    color: rgb(0, 187, 211);
+    margin-right: 60%;
+}
+
+.ps{
+    margin-left: 7%;
+    margin-top: 30px;
+}
+
+.pseditscontainer{
+    columns: 4;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-right:5%
+}
+
+.pseditsbox{
+    margin-bottom: 20px;
+}
+
+.pseditsimage{
+    width:320px;
+}
+
+
+@media (max-width:1462px){
+    .pseditscontainer{
+        columns:3;
+    }
+}
+
+@media (max-width:1098px){
+    .pseditscontainer{
+        columns:2;
+    }
+}
+
+@media (max-width:732px){
+    .pseditscontainer{
+        columns:1;
+    }
+}
+
+@media (max-width:375px){
+    .pseditsimage{
+        width:260px;
+    }
+}
+

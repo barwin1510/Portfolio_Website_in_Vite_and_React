@@ -1,0 +1,70 @@
+
+.content{
+    display:flex;
+    column-gap: 30px;
+    margin-top: 120px;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.me{
+    margin-top: 100px;
+}
+
+.h1_1{
+    display:inline-block;
+    padding-right: 10px;
+}
+
+.h1_2{
+    color:rgb(0, 187, 211);
+    display:inline-block;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.barwin{
+    display: inline-block;
+}
+
+.homepara{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.download-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding:6px;
+    border-radius: 2.5px;
+}
+
+.download-btn:hover{
+    background-color: rgb(0, 187, 211);
+}
+
+.download-btn:active{
+    opacity: 0.8;
+}
+
+
+
+@media screen and (max-width:800px){
+    .content{
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+        margin-top:10px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .img{
+        width:300px;
+    }
+}
