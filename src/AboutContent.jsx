@@ -3,9 +3,9 @@ import React from 'react'
 function AboutContent() {
   return (
     <>
-        <div class="aboutcontent">
-            <h1 class="aboutme">About me</h1>
-            <p class="aboutpara">
+        <div className="aboutcontent">
+            <h1 className="aboutme">About me</h1>
+            <p className="aboutpara">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, I’m E. Barwin Raj, a recent graduate with a Master's in Computer Applications (MCA), born on October 15, 2001. Throughout my academic journey, I have developed a deep passion for both technology and creativity, which has led me to hone my skills in various fields. I am particularly proficient in Photoshop, where I enjoy working on designs that are both visually striking and effective in communication. My creative side complements my technical expertise, allowing me to bring a unique perspective to the world of development.<br></br><br></br>
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the realm of web development, I am well-versed in building dynamic, responsive websites that offer excellent user experiences. My primary focus has been on using modern frameworks like React for front-end development and Spring Boot for creating robust and efficient back-end solutions. These tools allow me to build full-stack applications that are scalable, maintainable, and aligned with current industry standards.<br></br><br></br>

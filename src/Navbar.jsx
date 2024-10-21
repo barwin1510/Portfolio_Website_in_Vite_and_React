@@ -17,27 +17,27 @@ const Navbar=()=>{
 
     return(
         <>
-        <nav class="nav">
-            <nav class="lnav">
+        <nav className="nav">
+            <nav className="lnav">
                 <h3>Barwin Raj</h3>
             </nav>
-            <nav class="rnav">
-                    <p class="navsub1"><a href='/' class="nsr1">HOME</a></p>
-                    <p class="navsub2"><a href='/About' class="nsr2">ABOUT</a></p>
-                    <p class="navsub3"><a href='/Skill' class="nsr3">SKILL</a></p>
-                    <p class="navsub4"><a href='/Project' class="nsr4">PROJECT</a></p>
-                    <p class="navsub5"><a href='/Contact' class="nsr5">CONTACT</a></p>
+            <nav className="rnav">
+                    <p className="navsub1"><a href='/' className="nsr1">HOME</a></p>
+                    <p className="navsub2"><a href='/About' className="nsr2">ABOUT</a></p>
+                    <p className="navsub3"><a href='/Skill' className="nsr3">SKILL</a></p>
+                    <p className="navsub4"><a href='/Project' className="nsr4">PROJECT</a></p>
+                    <p className="navsub5"><a href='/Contact' className="nsr5">CONTACT</a></p>
             </nav>
-            <p class="menuP"><img onClick={sidenavOpen} class="menuIcon" src={Menu}></img></p>
+            <p className="menuP"><img onClick={sidenavOpen} className="menuIcon" src={Menu}></img></p>
         </nav>
-            <nav class="sidenav" style={{ left: sidenavVisible ? '0%' : '-50%'}}>
-                <p class="cancelP"><img class="cancelIcon" onClick={sidenavClose} src={Cancel}></img></p>
-                <nav class="navside">
-                    <p class="navside1"><a href='/' class="lnsr1">HOME</a></p><br></br>
-                    <p class="navside2"><a href='/About' class="lnsr2">ABOUT</a></p><br></br>
-                    <p class="navside3"><a href='/Skill' class="lnsr3">SKILL</a></p><br></br>
-                    <p class="navside4"><a href='/Project' class="lnsr4">PROJECT</a></p><br></br>
-                    <p class="navside5"><a href='/Contact' class="lnsr5">CONTACT</a></p>
+            <nav className="sidenav" style={{ left: sidenavVisible ? '0%' : '-50%'}}>
+                <p className="cancelP"><img className="cancelIcon" onClick={sidenavClose} src={Cancel}></img></p>
+                <nav className="navside">
+                    <p className="navside1"><a href='/' className="lnsr1">HOME</a></p><br></br>
+                    <p className="navside2"><a href='/About' className="lnsr2">ABOUT</a></p><br></br>
+                    <p className="navside3"><a href='/Skill' className="lnsr3">SKILL</a></p><br></br>
+                    <p className="navside4"><a href='/Project' className="lnsr4">PROJECT</a></p><br></br>
+                    <p className="navside5"><a href='/Contact' className="lnsr5">CONTACT</a></p>
                 </nav>
             </nav>
         </>
