@@ -5,9 +5,27 @@
     margin-right: 60%;
 }
 
-.ps{
+.ps, .react{
     margin-left: 7%;
     margin-top: 30px;
+}
+
+.ps{
+    margin-top:70px;
+}
+
+.tl{
+    margin-left:10%;
+    margin-top: 10px;
+    font-weight:bold;
+}
+
+iframe{
+    margin-top:20px;
+    margin-left:7%;
+    margin-right:7%;
+    width:86%;
+    height:680px;
 }
 
 .pseditscontainer{
