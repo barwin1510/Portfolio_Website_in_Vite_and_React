@@ -1,11 +1,13 @@
 import './App.css'
 import './Navbar.css'
+import './Footer.css'
 import './HomeContent.css'
 import './AboutContent.css'
 import './SkillContent.css'
 import './ProjectContent.css'
 import './ContactContent.css'
 import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx'
 import HomeContent from './HomeContent.jsx'
 import AboutContent from './AboutContent.jsx'
 import SkillContent from './SkillContent.jsx'
@@ -24,6 +26,7 @@ function App() {
           <Route path='/Project' element={<ProjectContent />} />
           <Route path='/Contact' element={<Contact />} />
         </Routes>
+        <Footer />
     </>
   );
 }
