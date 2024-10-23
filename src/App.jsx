@@ -13,19 +13,21 @@ import AboutContent from './AboutContent.jsx'
 import SkillContent from './SkillContent.jsx'
 import ProjectContent from './ProjectContent.jsx'
 import Contact from './ContactContent.jsx'
-import { Routes, Route } from 'react-router-dom'
+import {BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <>
         <Navbar />
-        <Routes>
-          <Route path='/' element={<HomeContent />} />
-          <Route path='/About' element={<AboutContent />} />
-          <Route path='/Skill' element={<SkillContent />} />
-          <Route path='/Project' element={<ProjectContent />} />
-          <Route path='/Contact' element={<Contact />} />
-        </Routes>
+        <BrowserRouter basename='/Portfolio_Website_in_Vite_and_React'>
+          <Routes>
+            <Route path='/' element={<HomeContent />} />
+            <Route path='/About' element={<AboutContent />} />
+            <Route path='/Skill' element={<SkillContent />} />
+            <Route path='/Project' element={<ProjectContent />} />
+            <Route path='/Contact' element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
         <Footer />
     </>
   );
