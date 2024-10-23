@@ -5,11 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/Portfolio_Website_in_Vite_and_React/",
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: null
-      }
-    }
-  }
 });
