@@ -19,7 +19,7 @@ function App() {
   return (
     <>
         <Navbar />
-        <BrowserRouter basename='/Portfolio_Website_in_Vite_and_React'>
+        <BrowserRouter>
           <Routes>
             <Route path='/' element={<HomeContent />} />
             <Route path='/About' element={<AboutContent />} />
