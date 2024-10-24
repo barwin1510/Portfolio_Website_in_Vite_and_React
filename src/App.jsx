@@ -13,13 +13,13 @@ import AboutContent from './AboutContent.jsx'
 import SkillContent from './SkillContent.jsx'
 import ProjectContent from './ProjectContent.jsx'
 import Contact from './ContactContent.jsx'
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import {BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <>
         <Navbar />
-        <Router>
+        <BrowserRouter>
           <Routes>
             <Route path='/' element={<HomeContent />} />
             <Route path='/About' element={<AboutContent />} />
@@ -27,7 +27,7 @@ function App() {
             <Route path='/Project' element={<ProjectContent />} />
             <Route path='/Contact' element={<Contact />} />
           </Routes>
-          </Router>
+        </BrowserRouter>
         <Footer />
     </>
   );
