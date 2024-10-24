@@ -24,7 +24,7 @@ const ProjectContent=()=>{
             <h1 className="project">Project</h1>
             <h2 className="react">React</h2>
                 <p className="tl">Todo List:</p>
-                <iframe src="https://barwin1510.github.io/Todo_List_in_Vite_and_React/" title="Todo List"></iframe>
+                <iframe src="https://todo-list-in-vite-and-react.vercel.app/" title="Todo List"></iframe>
             <h2 className="ps">Photoshop</h2>
             <div className="pseditscontainer">
                 <div className="pseditsbox"><img src={pse1} className="pseditsimage"></img></div>
