@@ -23,6 +23,8 @@ const ProjectContent=()=>{
         <>
             <h1 className="project">Project</h1>
             <h2 className="react">React</h2>
+                <p className="tl">Calculator:</p>
+                <iframe src="https://calculator-in-vite-and-react.vercel.app/" title="Calculator"></iframe>
                 <p className="tl">Todo List:</p>
                 <iframe src="https://todo-list-in-vite-and-react.vercel.app/" title="Todo List"></iframe>
             <h2 className="ps">Photoshop</h2>
