@@ -5,7 +5,7 @@
     margin-right: 60%;
 }
 
-.ps, .react{
+.subprojects{
     margin-left: 7%;
     margin-top: 50px;
 }
@@ -56,6 +56,14 @@ a:hover{
     color: rgb(0, 187, 211);
 }
 
+.rp{
+    margin-left: 12%;
+    margin-top: 30px;
+    width: 100%;
+    width: 800px;
+    border-radius: 8px;
+}
+
 
 @media (max-width:1462px){
     .pseditscontainer{
@@ -67,17 +75,44 @@ a:hover{
     .pseditscontainer{
         columns:2;
     }
+    .rp{
+        width:620px;
+    }
 }
 
 @media (max-width:732px){
     .pseditscontainer{
         columns:1;
     }
+    .rp{
+        width:500px;
+    }
+}
+
+@media (max-width:600px){
+    .rp{
+        width:400px;
+    }
+}
+
+@media (max-width:500px){
+    .rp{
+        width:350px;
+    }
+}
+
+@media (max-width:445px){
+    .rp{
+        width:300px;
+    }
 }
 
 @media (max-width:375px){
     .pseditsimage{
         width:260px;
+    }
+    .rp{
+        width:250px;
     }
 }
 

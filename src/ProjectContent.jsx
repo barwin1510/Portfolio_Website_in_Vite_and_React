@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectVideo from "./assets/videos/Registration_Project_Video.mp4";
 import pse1 from "./assets/images/pse1.jpg";
 import pse2 from "./assets/images/pse2.jpg";
 import pse3 from "./assets/images/pse3.jpg";
@@ -22,7 +23,7 @@ const ProjectContent = () => {
   return (
     <>
       <h1 className="project">Project</h1>
-      <h2 className="react">React</h2>
+      <h2 className="subprojects">React</h2>
       <p className="tl">Calculator:</p>
       <iframe
         src="https://calculator-in-vite-and-react.vercel.app/"
@@ -33,7 +34,7 @@ const ProjectContent = () => {
         src="https://todo-list-in-vite-and-react.vercel.app/"
         title="Todo List"
       ></iframe>
-      <h2 className="react">Spring Boot with MySQL</h2>
+      <h2 className="subprojects">Spring Boot with MySQL</h2>
       <p className="tl">Book Store API:</p>
       <a
         href="https://bookstore-50023441913.development.catalystappsail.in/"
@@ -48,7 +49,12 @@ const ProjectContent = () => {
       >
         Click here
       </a>
-      <h2 className="ps">Photoshop</h2>
+      <h2 className="subprojects">React & Spring Boot with MySQL</h2>
+      <video className="rp"
+        controls
+        src={ProjectVideo}
+      />
+      <h2 className="subprojects">Photoshop</h2>
       <div className="pseditscontainer">
         <div className="pseditsbox">
           <img src={pse1} className="pseditsimage"></img>
