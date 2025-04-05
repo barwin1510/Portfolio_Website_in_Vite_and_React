@@ -1,0 +1,26 @@
+:root {
+    --color1: #003135;
+    --color2: #024950;
+    --color3: #0FA4AF;
+    --color4: #AFDDE5;
+}
+
+*{
+  margin:0px;
+  padding:0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+body {
+    height: 100%;
+}
