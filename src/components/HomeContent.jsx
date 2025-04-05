@@ -1,6 +1,6 @@
 import React from 'react'
-import Barwin from './assets/images/Barwin.jpg'
-import Resume from './assets/pdf/Barwin-Resume.pdf'
+import Barwin from '../assets/images/Barwin.jpg'
+import Resume from '../assets/pdf/Barwin-Resume.pdf'
 
 const HomeContent=()=>{
     return(

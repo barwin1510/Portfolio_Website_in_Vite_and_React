@@ -1,10 +1,10 @@
 import React from 'react'
-import Gmail from './assets/images/gmail.png'
-import GitHub from './assets/images/github.png'
-import Linkedin from './assets/images/linkedin.png'
-import Whatsapp from './assets/images/whatsapp.png'
-import Facebook from './assets/images/facebook.png'
-import Instagram from './assets/images/instagram.png'
+import Gmail from '../assets/images/gmail.png'
+import GitHub from '../assets/images/github.png'
+import Linkedin from '../assets/images/linkedin.png'
+import Whatsapp from '../assets/images/whatsapp.png'
+import Facebook from '../assets/images/facebook.png'
+import Instagram from '../assets/images/instagram.png'
 
 const ContactContent=()=>{
     return(

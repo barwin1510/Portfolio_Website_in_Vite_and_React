@@ -1,6 +1,6 @@
 import React from 'react'
-import Menu from './assets/images/menu.png'
-import Cancel from './assets/images/cancel.png'
+import Menu from '../assets/images/menu.png'
+import Cancel from '../assets/images/cancel.png'
 import {useState} from 'react'
 
 const Navbar=()=>{
