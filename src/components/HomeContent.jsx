@@ -1,5 +1,5 @@
 import React from 'react'
-import Barwin from '../assets/images/Barwin.jpg'
+import Barwin from '../assets/images/Barwin.png'
 import Resume from '../assets/pdf/Barwin-Resume.pdf'
 
 const HomeContent=()=>{

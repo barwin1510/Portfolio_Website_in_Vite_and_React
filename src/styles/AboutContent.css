@@ -2,7 +2,7 @@
 .aboutme{
     margin-left: 10%;
     margin-top: 50px;
-    color: rgb(0, 187, 211);
+    color: var(--teal);
 }
 
 .aboutpara{

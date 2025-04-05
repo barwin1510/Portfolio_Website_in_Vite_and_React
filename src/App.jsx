@@ -1,13 +1,11 @@
 import './styles/App.css'
 import './styles/Navbar.css'
-import './styles/Footer.css'
 import './styles/HomeContent.css'
 import './styles/AboutContent.css'
 import './styles/SkillContent.css'
 import './styles/ProjectContent.css'
 import './styles/ContactContent.css'
 import Navbar from './components/Navbar.jsx'
-import Footer from './components/Footer.jsx'
 import HomeContent from './components/HomeContent.jsx'
 import AboutContent from './components/AboutContent.jsx'
 import SkillContent from './components/SkillContent.jsx'
@@ -28,7 +26,6 @@ function App() {
             <Route path='/Contact' element={<Contact />} />
           </Routes>
         </BrowserRouter>
-        <Footer />
     </>
   );
 }
