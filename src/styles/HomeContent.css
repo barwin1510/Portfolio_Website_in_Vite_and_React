@@ -69,10 +69,16 @@
         margin-right: 3%;
     }
     .img{
-        width:300px;
+        width:350px;
     }
     .download-btn {
         display: inline-block;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:400px){
+    .img{
+        width:300px;
     }
 }
